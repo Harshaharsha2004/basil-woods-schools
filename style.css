@@ -271,12 +271,6 @@ ul{
   .title {
     font-size: 26px;
   } 
-  .heading{
-    font-size: 5px;
-  }
-  .para{
-    font-size: 5px;
-  }
   .title-discription {
     font-size: 22px;
   }
@@ -297,14 +291,11 @@ ul{
     width: 55px;
     height: 55px;
   }
-
-  .title-box h1 {
-    font-size: 16px;
-    line-height: 1.2;
+  .heading{
+    font-size: 5px;
   }
-
-  .title-box p {
-    font-size: 11px;
+  .para{
+    font-size: 5px;
   }
 
   .navbar-toggler {
@@ -348,25 +339,19 @@ img {
 
 @media (max-width: 576px) {
 
-  #navLogo {
-    width: 55px;
-    height: 55px;
-  }
-
-  .title-box h1 {
-    font-size: 16px;
-    line-height: 1.2;
-  }
-
-  .title-box p {
-    font-size: 11px;
-  }
-
   .navbar-toggler {
     border: none;
+    position: absolute;
+    right: 2px;
+  }
+  .main-logo{
+    visibility:hidden;
+  }
+  .title-box{
+    position: absolute;
   }
 }
-/* ===== NAV FIX FOR 993px to 1200px ===== */
+
 @media (min-width: 993px) and (max-width: 1200px) {
 
   .navbar {
@@ -397,8 +382,5 @@ img {
     height: 55px;
     margin: 0 12px;
   }
-
-  .title-box {
-    margin-right: 10px;
-  }
 }
+
